@@ -1,13 +1,18 @@
+#include "simpleshell.h"
 #include <stdio.h>
-#include <stdio.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <string.h>
+
+/**
+* main - program entry point
+*
+* @ac: number of arguments
+* @args: program arguments
+*
+* Return: always 0 (success)
+*/
 
 int main(int ac, char *args[])
 {
-	if(ac < 2)
+	if (ac < 2)
 	{
 		printf("error: few arguments\n");
 		return (-1);
@@ -22,6 +27,6 @@ int main(int ac, char *args[])
 	}
 
 	printf("done %s\n", "🎉");
-	
+
 	return (0);
 }
