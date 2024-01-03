@@ -1,7 +1,5 @@
-ALX course.
+# C - Simple Shell
 
-Learning about simple shell scripts and environment processes using C programming 
-language.
+## a custom shell made in the C programming language
 
-#simple shell
-
+George Muigai <georgemuigainjau@gmail.com>
